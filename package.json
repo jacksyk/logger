@@ -1,6 +1,6 @@
 {
     "name": "syk-logger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "一款美观轻量的logger工具",
     "main": "./lib/index.esm.js",
     "module": "./lib/index.esm.js",

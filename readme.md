@@ -3,16 +3,15 @@
 ## 安装
 
 ```
-npm install syk-toast
+npm install syk-logger
 ```
 
 ## 使用
 
 ```
-import { toast } from 'syk-toast';
+import { borderLogger, backLogger, prettyLogger } from 'syk-logger';
 
-toast.log('提示')
-toast.success('成功');
-toast.warning('警告');
-toast.error('错误');
+borderLogger.primary("hello")
+backLogger.primary("hello")
+prettyLogger.danger("hello", "没有了")
 ```
